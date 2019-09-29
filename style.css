@@ -5,6 +5,12 @@
     margin: 0;
     padding: 0;
 }
+body{
+
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+            radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+}
+
 html{
     font-size: 1rem;
 
@@ -90,7 +96,11 @@ section ul{
     width: 100%;
     border: 1px solid #333;
 }
-
+#me{
+    height: 15em;
+    width: 12em;
+ 
+}
 
 footer{
     margin-top:2em;
