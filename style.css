@@ -31,6 +31,7 @@ footer{
 
 header{
     padding: 2em 0;
+
 }
 
 header h1{
@@ -95,6 +96,9 @@ section ul{
 #products article img{
     width: 100%;
     border: 1px solid #333;
+}
+#products img:hover{
+    transform: scale(1.6);
 }
 #me{
     height: 15em;
